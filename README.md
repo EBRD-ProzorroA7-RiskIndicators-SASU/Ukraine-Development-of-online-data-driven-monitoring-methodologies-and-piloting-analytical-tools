@@ -3,7 +3,7 @@
 ## Ukraine: Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine
 
 ### Description:
-[OCDS](https://standard.open-contracting.org/latest/en/)-based visualisation tool and [OCDS](https://standard.open-contracting.org/latest/en/) data feed are redeveloped to handle available data sources, data quality is assessed and data consolidation architecture is evaluated.
+This repository contains all the projects which are considered to be parts of the Project: "Ukraine: Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine"
 
 ### Project timeline:
 
