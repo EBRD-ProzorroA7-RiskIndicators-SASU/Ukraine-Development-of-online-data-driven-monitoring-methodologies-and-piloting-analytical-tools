@@ -27,3 +27,23 @@ Working with the EBRD GPA Technical Cooperation Facility, the SASU and [the Mini
 The EBRD-developed vision to achieve these objectives contained two primary workstreams:
 -	Development of a **concept with the initial set of risk indicators** and a **concept of procurement procedures risk-based prioritisation** for ex-ante monitoring of the electronic public procurement procedures by SASU, in accordance with the latest amendments to the Public Procurement Law of Ukraine;
 -	Development of **prototypes of indicators engine** and **risk-based procurement procedures prioritisation engine** for monitoring public procurement by SASU.
+
+## Technological solution and implementation
+To deliver this project, the [EBRD](https://www.ebrd.com/home) team performed the detailed analysis of the main factors and stakeholders influencing the monitoring process, analysed available risk management frameworks that could be applied, reviewed relevant documentation, as well as conducted series of interviews and working meetings with the process key stakeholders. The investigation resulted in an established **methodology approach** and a clear **definition of requirements** for online monitoring risk indicators, risky procedures queuing and prioritisation.
+
+The project team described monitoring system architecture and data flow for the following electronic tool elements:
+-	Prozorro integration module;
+-	Relational database;
+-	Analytic tables module;
+-	Indicators coded algorithm library; 
+-	Indicators integration and calculation module (risks calculation engine); 
+-	Queue module; 
+-	Queue API.
+
+Following the theoretical exploration, the developed methodology was embedded into the prototypes of electronic tools, which were successfully piloted by [SASU](http://www.dkrs.gov.ua/kru/en/) with support of the EBRD. These e-tools included:
+1.	**Risk engine application** which can perform red flags and risk indicators online automated calculation. </br> The calculation is based on the referencing the public procurement procedures Open Data from the [Prozorro](https://prozorro.gov.ua) system against designed red flags and risk indicators algorithms and stored in the library. Once the algorithm conditions are met, the application marks the procurement procedure with a respective red flag/risk indicators “positive” sign. This application checks the algorithms condition periodically and updates the results. The risk engine application also allows built-in managing parameters attached to the automated indicator, such as “likelihood” and “impact”.
+2.	**Queuing and prioritisation engine.** </br> This application which collects public procurement procedures with positive red flags and risk indicators (risky procedures) referenced by Risk Engine. The application prioritises procedures in the queue by using an algorithm of ranking procedures with risks based on the number of red flags and risk indicators, positive calculation results and procurement procedure value. This engine allows the of building procedures with risks prioritised queues for each region of Ukraine.
+3.	**Application Programming Interfaces (APIs).** </br> The APIs are created for querying information from Prozorro system and allow the querying of calculation results by Auditors Cabinet.
+
+All prototypes were transferred to the Prozorro system administrator for management, maintenance and further development in line with the dedicated official methodology evolution.
+
