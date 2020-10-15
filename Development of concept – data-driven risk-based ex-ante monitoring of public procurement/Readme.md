@@ -1,1 +1,1 @@
-ddd
+gitognore
