@@ -1,6 +1,6 @@
 # Legal Transition Programme
 
-## Ukraine: Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine </br> </br> _Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine – Development and implementation of front-end analytical tool_
+## Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine – Development and implementation of front-end analytical tool
 
 ### Description:
 
@@ -32,4 +32,12 @@ The EBRD-developed vision to achieve these objectives contained two primary work
 -	Conducting an online training session for end-users – members of the SASU staff responsible for monitoring public procurement to enable them to implement eProcurement audit activities.
 
 ## Technological solution and implementation
-
+The steps for development the front-end analytical tool are chronologically described below.
+1. Discussing and agreeing on the functional and non-functional requirements. 
+2. Defining of the basic modules of the analytical tool and prepared the necessary technical documentation by the project team . 
+3. The required mock-ups of the future tool’s interface were designed and approved, including elements of control, forms for displaying the calculation results, sets of analytical dashboards and their location.
+4. The module for selecting and consolidating the data from identified sources of information (a structured central database of the analytical tool, which enabled the consolidation of all the data needed to perform further analysis of procurement transactions) was developed.
+5. As far as the analytical tool interface was displaying an array of procedures in a table format, the table metrics ware introduced, for instance, the number of transactions in the table, etc., to summarise the amount of data that the end-user is currently working with, thus the completed functionality for the visualisation of the transactions array was created.
+6. The functionality of filters for a general and selected array of procurement procedures was developed and tested in order to enable auditors to consider the array of public procurement transactions in different dimensions. 
+7. The analytical information presented graphically helps auditors to localise risks in the public procurement system under different dimensions and more efficiently select transactions for monitoring and the functionality of the basket provides auditors with the capability to store selected procurement transactions up to the official initiation of monitoring.
+8. The last functionality implemented was transaction marking, which serves to visually mark such procurement procedures, in the framework of which the special events occurred, which should be reported to the auditor. Following the development of the analytical tool, the auditors tested it and, based on the results of the tests, final amendments were made, and all identified bugs were eliminated. At the end of this phase, the front-end analytical tool was ready for deployment into a production environment of the Beneficiary.
