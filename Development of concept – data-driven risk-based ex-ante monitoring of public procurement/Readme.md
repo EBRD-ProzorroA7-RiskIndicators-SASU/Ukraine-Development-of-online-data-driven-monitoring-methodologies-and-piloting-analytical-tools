@@ -1,6 +1,6 @@
 # Legal Transition Programme
 
-## Ukraine: Development of online data-driven monitoring methodologies and piloting analytical and monitoring tools by the State Audit Service of Ukraine </br> </br> _Development of concept – data-driven risk-based ex-ante monitoring of public procurement_
+## Development of concept – data-driven risk-based ex-ante monitoring of public procurement
 
 ### Description:
 The feasibility of a data-driven, evidence-based, and risk-based approach to public procurement control is demonstrated and prototyped methodologies and digital tools, including a set of risk-indicators for [Open Contracting Data Standard (OCDS)](https://standard.open-contracting.org/latest/en/) structured data are produced in order to create the conceptual design of the digitised monitoring process and surrounding IT infrastructure, to identify main challenges and manage key stakeholders on their way to accept the new practice.
