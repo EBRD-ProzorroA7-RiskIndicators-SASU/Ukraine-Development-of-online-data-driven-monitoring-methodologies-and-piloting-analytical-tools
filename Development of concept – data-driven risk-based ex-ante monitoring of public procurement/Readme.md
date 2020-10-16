@@ -48,11 +48,25 @@ Following the theoretical exploration, the developed methodology was embedded in
 All prototypes were transferred to the Prozorro system administrator for management, maintenance and further development in line with the dedicated official methodology evolution.
 
 ## Results and future expectations
-The proof of the concept **provided a vision of ex-ante monitoring on comprehensive scale** in line with the Law provisions, **demonstrated the feasibility** of the risk-based and data-driven approach to monitoring of public procurements in the Prozorro environment and **verified that designed methodologies and developed tools had practical potential**.
+The proof of the concept **provided a vision of ex-ante monitoring on comprehensive scale** in line with the Law provisions, **demonstrated the feasibility** of the risk-based and data-driven approach to monitoring of public procurements in the [Prozorro](https://prozorro.gov.ua) environment and **verified that designed methodologies and developed tools had practical potential**.
 
-The Prozorro **successfully launched the innovative pieces of technologies – Indicators engine** for automated calculation of data-based risk indicators and **Prioritisation engine** for automated selections of procedures with a high-risk score for monitoring by the SASU – that can yield significant benefits to the Prozorro ecosystem and its controls environment by combining risk management concept, Open Data opportunities and up to the minute data analytics technologies.
+The Prozorro **successfully launched the innovative pieces of technologies – Indicators engine** for automated calculation of data-based risk indicators and **Prioritisation engine** for automated selections of procedures with a high-risk score for monitoring by the [SASU](http://www.dkrs.gov.ua/kru/en/) – that can yield significant benefits to the Prozorro ecosystem and its controls environment by combining risk management concept, Open Data opportunities and up to the minute data analytics technologies.
 
 Finally, the SASU took the designed methodologies as a basis for the official decree on public procurement monitoring, **which was approved in October 2018**. Ukrainian state auditors developed their basic capacity to deliver the newly introduced responsibilities, and **for the year 2019, they covered by monitoring 6% in quantity and 20% in value of above threshold public procurement transactions**.
 
-## Lessons learnt
+## Impact
+- The concept that the modern risk management process can be implemented in the Ukrainian procurement monitoring ecosystem and that the procurement process risks can be identified by applying automated red flags and risk indicators has been proven; 
+- Authorised state control body ([SASU](http://www.dkrs.gov.ua/kru/en/)) is enabled to perform its obligation prescribed by the Law via online data-driven risk-based analysis and monitoring.
 
+## Lessons learnt
+Some lessons that can be taken from this project include the following:
+-	The [SASU](http://www.dkrs.gov.ua/kru/en/) and the [MDETA](https://www.me.gov.ua/?lang=en-GB) should improve their capacity and knowledge in public procurement risk management and risk assessment;
+-	The motivation to introduce new changes to the monitoring of the public procurement should be based on a strong will to improve the processes in the way to deliver positive results later on;
+-	The critical success factor to the risk-based monitoring approach is the availability of appropriate software which should support the SASU in the monitoring of procurement performance;
+-	eProcurement system integration with the state official registers and other authorities will create additional sources of information which can be used for the development of indicators;
+-	Digitalisation of the procurement processes in the system will enable more granular analysis from the risks identification perspective;
+-	There is a need to assess the performance of red flags and risk indicators and to seek opportunities to design and implement new indicators;
+-	Auditors need a user-friendly risk indicators interface, which will enable them to observe and analyse risky procedures in order to allow for improvements in the quality of monitoring and efficiency of the tools;
+-	There is a need to have a detailed guidance on how to perform monitoring efficiently and effectively, as well as other supporting documents in electronic format and in one place;
+-	Auditors need an analytical infrastructure which will enable analysis and reporting on public procurement procedures that have been monitored and which will increase transparency and accountability of the SASU;
+-	There is a necessity for analytical infrastructure to conduct a granular analysis of Contracting Authorities, suppliers, regions and so on using historical data on calculated risk indicators and risk assessment which will enable the comparison of results on red flags and risk indicators calculations with monitoring instances initiated and conclusion made.
