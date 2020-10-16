@@ -47,3 +47,12 @@ Following the theoretical exploration, the developed methodology was embedded in
 
 All prototypes were transferred to the Prozorro system administrator for management, maintenance and further development in line with the dedicated official methodology evolution.
 
+## Results and future expectations
+The proof of the concept **provided a vision of ex-ante monitoring on comprehensive scale** in line with the Law provisions, **demonstrated the feasibility** of the risk-based and data-driven approach to monitoring of public procurements in the Prozorro environment and **verified that designed methodologies and developed tools had practical potential**.
+
+The Prozorro **successfully launched the innovative pieces of technologies – Indicators engine** for automated calculation of data-based risk indicators and **Prioritisation engine** for automated selections of procedures with a high-risk score for monitoring by the SASU – that can yield significant benefits to the Prozorro ecosystem and its controls environment by combining risk management concept, Open Data opportunities and up to the minute data analytics technologies.
+
+Finally, the SASU took the designed methodologies as a basis for the official decree on public procurement monitoring, **which was approved in October 2018**. Ukrainian state auditors developed their basic capacity to deliver the newly introduced responsibilities, and **for the year 2019, they covered by monitoring 6% in quantity and 20% in value of above threshold public procurement transactions**.
+
+## Lessons learnt
+
