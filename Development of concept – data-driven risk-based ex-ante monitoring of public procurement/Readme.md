@@ -13,9 +13,7 @@ Nov 2018 – April 2019
 In use by the SASU since 2019
 
 ## Context and problem statement
-In April 2016, the [Public Procurement Law (Law)](https://zakon.rada.gov.ua/laws/show/922-19) came into force in Ukraine. Together with the new Law, the public procurement monitoring procedure was introduced. [The State Audit Service of Ukraine](http://www.dkrs.gov.ua/kru/en/) was assigned as the governmental authority responsible for performing public procurement monitoring.
-
-According to the adopted amendments to the Law, the SASU may start the procurement procedure monitoring based on the triggered automated red flags and risk indicators defined by the monitoring methodology. In this regard, the Government of Ukraine requested [EBRD](https://www.ebrd.com/home) to assist in developing and piloting respective methodology and automated data-driven red flags as well as risk indicators tools for electronic public tenders’ official monitoring by SASU.
+According to the adopted amendments to the [Public Procurement Law (Law)](https://zakon.rada.gov.ua/laws/show/922-19), [the State Audit Service of Ukraine](http://www.dkrs.gov.ua/kru/en/) may start the procurement procedure monitoring based on the triggered automated red flags and risk indicators defined by the monitoring methodology. In this regard, the Government of Ukraine requested [EBRD](https://www.ebrd.com/home) to assist in developing and piloting respective methodology and automated data-driven red flags as well as risk indicators tools for electronic public tenders’ official monitoring by SASU.
 
 To fulfil the Law requirements, the development efforts were organised in two projects. Under the first project, the electronic Auditor’s Cabinet had to be developed and attached to the [Prozorro](https://prozorro.gov.ua) – an open-source [OCDS](https://standard.open-contracting.org/latest/en/) open data electronic public procurement system of Ukraine. The SOE “Prozorro” team took ownership of this project. 
 
