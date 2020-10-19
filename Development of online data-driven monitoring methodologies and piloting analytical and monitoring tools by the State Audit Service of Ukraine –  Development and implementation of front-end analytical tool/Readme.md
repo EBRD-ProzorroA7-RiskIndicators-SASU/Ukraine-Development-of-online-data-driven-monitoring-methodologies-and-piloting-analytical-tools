@@ -39,5 +39,20 @@ The steps for development the front-end analytical tool are chronologically desc
 4. The module for selecting and consolidating the data from identified sources of information (a structured central database of the analytical tool, which enabled the consolidation of all the data needed to perform further analysis of procurement transactions) was developed.
 5. As far as the analytical tool interface was displaying an array of procedures in a table format, the table metrics ware introduced, for instance, the number of transactions in the table, etc., to summarise the amount of data that the end-user is currently working with, thus the completed functionality for the visualisation of the transactions array was created.
 6. The functionality of filters for a general and selected array of procurement procedures was developed and tested in order to enable auditors to consider the array of public procurement transactions in different dimensions. 
-7. The analytical information presented graphically helps auditors to localise risks in the public procurement system under different dimensions and more efficiently select transactions for monitoring and the functionality of the basket provides auditors with the capability to store selected procurement transactions up to the official initiation of monitoring.
-8. The last functionality implemented was transaction marking, which serves to visually mark such procurement procedures, in the framework of which the special events occurred, which should be reported to the auditor. Following the development of the analytical tool, the auditors tested it and, based on the results of the tests, final amendments were made, and all identified bugs were eliminated. At the end of this phase, the front-end analytical tool was ready for deployment into a production environment of the Beneficiary.
+7. The analytical information was presented graphically to help auditors to localise risks in the public procurement system under different dimensions and more efficiently select transactions for monitoring.
+8. The functionality of the basket was provided to allow auditors to store selected procurement transactions up to the official initiation of monitoring.
+9. The transaction marking functionality was implemented to visually mark such procurement procedures, in the framework of which the special events occurred, which should be reported to the auditor. 
+10. Final amendments were made, and all identified bugs were eliminated based on the results of the tests made by auditors.
+
+As the result, the ready for deployment into a production environment of the Beneficiary front-end analytical tool was created.
+
+## Results and future expectations
+The implemented project proved that the online risk-based data-driven monitoring concept is viable for Ukrainian public procurement environment. The user-friendly tool automatically consolidates and visualises data from the [Prozorro](https://prozorro.gov.ua), the automatic risk indicators calculation engine and the Prozorro API for monitoring and allows auditors to quickly analyse transactions’ open data by applying multidimensional filtering functionality. Also, a dedicated basket functionality was implemented to keep the procedures and track them by auditors until the official start of monitoring.
+
+Following the completion of the capacity-building training sessions, the staff of the [SASU](http://www.dkrs.gov.ua/kru/en/) responsible for monitoring public procurement in Ukraine, have significantly increased their capabilities in conducting eProcurement audit activities using a new monitoring methodology and analytical tools. 
+
+The project deliverables contribute to improving the CAs procurement practice compliance with regulations, as well as a higher level of the corruption or collusion cases detection by the state controlling authorities, and to reduce the loss of public funds. 
+
+## Impact
+- Auditors can conduct a real-time and in-depth analysis of eProcurement transactions, 
+- effectively select for monitoring by applying available analytical functionalities and calculated risk indicators results, displayed live in the user-friendly web-based application.
