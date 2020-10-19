@@ -54,5 +54,13 @@ Following the completion of the capacity-building training sessions, the staff o
 The project deliverables contribute to improving the CAs procurement practice compliance with regulations, as well as a higher level of the corruption or collusion cases detection by the state controlling authorities, and to reduce the loss of public funds. 
 
 ## Impact
-- Auditors can conduct a real-time and in-depth analysis of eProcurement transactions, 
-- effectively select for monitoring by applying available analytical functionalities and calculated risk indicators results, displayed live in the user-friendly web-based application.
+By applying of the available analytical functionalities and calculated risk indicators results, displayed live in the user-friendly web-based application, auditors can:
+- Conduct a real-time and in-depth analysis of eProcurement transactions;
+- Effectively select procurement procedures for monitoring.
+
+## Lessons learnt
+Lessons that can be taken from the project:
+- Gaining auditors support in the design and testing process is critical for the development of the analytical tool that will meet end-users’ expectations in full.
+-	The disscussions should be conducted among the relevant experts aiming at the investigation of public procurement risks and their minimisation through the online monitoring and other means of controls because of the permanent changes in the public procurement control environment and amendments to the related legislation.
+-	There is a need for dedicated guidance for efficient and effective monitoring of public procurement procedures. The guidance should include an assessment of the monitoring process effectiveness, including (1) a step by step description of the monitoring process and how to use the developed technology infrastructure, and (2) monitoring process KPIs to measure the effectiveness of the auditors, risky procedures queueing and prioritisation, queue processing, as well as an explanation on how to effectively manage performance.
+-	The revising and updating of the developed IT infrastructure for the public procurement monitoring should be conducted to reflect the necessary amendments to the online data-driven monitoring methodology, monitoring process performance assessment, and incorporating automatic reports on the progress of online monitoring effectiveness.
