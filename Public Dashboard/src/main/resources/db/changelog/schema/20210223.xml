@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="auditor"/>
+            </not>
+        </preConditions>
+
+        <createTable tableName="auditor">
+            <column name="id" type="serial"/>
+            <column name="email" type="text"/>
+        </createTable>
+
+        <addPrimaryKey tableName="auditor" columnNames="id" constraintName="pk_auditor"/>
+
+    </changeSet>
+
+    <changeSet id="2" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="auditor_id" tableName="monitoring"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="monitoring">
+            <column name="auditor_id" type="integer"/>
+        </addColumn>
+
+        <addForeignKeyConstraint baseTableName="monitoring" baseColumnNames="auditor_id"
+                                 constraintName="fk_monitoring_to_auditor"
+                                 referencedTableName="auditor"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="4" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="sasu_office_id" tableName="monitoring"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="monitoring">
+            <column name="sasu_office_id" type="integer"/>
+        </addColumn>
+
+        <addForeignKeyConstraint baseTableName="monitoring" baseColumnNames="sasu_office_id"
+                                 constraintName="fk_monitoring_to_sasu_office"
+                                 referencedTableName="sasu_office"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="5" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="start_date" tableName="tender"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="tender">
+            <column name="start_date" type="date"/>
+        </addColumn>
+
+    </changeSet>
+
+    <changeSet id="6" author="eddy">
+
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="status" tableName="award"/>
+            </not>
+        </preConditions>
+        <addColumn tableName="award">
+            <column name="status" type="text"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="7" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="reason"/>
+            </not>
+        </preConditions>
+
+        <createTable tableName="reason">
+            <column name="id" type="serial" autoIncrement="true"/>
+            <column name="name" type="text"/>
+        </createTable>
+
+        <addPrimaryKey tableName="reason" columnNames="id"/>
+        <addUniqueConstraint tableName="reason" columnNames="name"/>
+
+    </changeSet>
+
+    <changeSet id="8" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="monitoring_reason"/>
+            </not>
+        </preConditions>
+
+        <createTable tableName="monitoring_reason">
+            <column name="monitoring_id" type="integer"/>
+            <column name="reason_id" type="integer"/>
+        </createTable>
+
+        <addPrimaryKey tableName="monitoring_reason" columnNames="monitoring_id,reason_id"/>
+
+        <addForeignKeyConstraint baseTableName="monitoring_reason" baseColumnNames="monitoring_id"
+                                 constraintName="fk_monitoring_reason_to_monitoring"
+                                 referencedTableName="monitoring"
+                                 referencedColumnNames="id"/>
+
+        <addForeignKeyConstraint baseTableName="monitoring_reason" baseColumnNames="reason_id"
+                                 constraintName="fk_monitoring_reason_to_reason"
+                                 referencedTableName="reason"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="9" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="name_ua" tableName="reason"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="reason">
+            <column name="name_ua" type="text"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="10" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="name_ua" tableName="violation"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="violation">
+            <column name="name_ua" type="text"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="11" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="duration" tableName="monitoring"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="monitoring">
+            <column name="duration" type="smallint"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="12" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="concluded" tableName="monitoring"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="monitoring">
+            <column name="concluded" type="boolean"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="13" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="competitive" tableName="tender"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="tender">
+            <column name="competitive" type="boolean"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="14" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <columnExists columnName="region" tableName="case_name"/>
+            </not>
+        </preConditions>
+
+        <addColumn tableName="region">
+            <column name="case_name" type="text"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="15" author="eddy">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <indexExists tableName="sasu_office" columnNames="region_id" indexName="unique_region"/>
+            </not>
+        </preConditions>
+
+        <addUniqueConstraint tableName="sasu_office" columnNames="region_id"/>
+    </changeSet>
+
+</databaseChangeLog>
