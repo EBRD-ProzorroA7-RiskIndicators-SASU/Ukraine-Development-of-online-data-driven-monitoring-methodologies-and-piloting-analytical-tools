@@ -1,0 +1,19 @@
+.selected-row {
+   background: #69c2ff;
+}
+
+.selected-row:hover {
+   background: #69c2ff !important;
+}
+
+.selected-row:hover > td {
+   background: #69c2ff !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+th.header-text-align-center {
+    text-align: center !important;
+}

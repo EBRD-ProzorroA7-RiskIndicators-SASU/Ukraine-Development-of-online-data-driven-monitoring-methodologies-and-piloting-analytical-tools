@@ -1,0 +1,30 @@
+.export-button {
+    position: absolute;
+    right: 5px;
+}
+
+.export-button .export-button-header {
+}
+
+.export-button .export-button-content {
+    background-color: #d0efed;
+}
+
+.export-button-content .ant-checkbox-group-item {
+    display: block !important;
+    margin-right: 0;
+}
+
+.export-button-content .ant-radio {
+    margin-top: 25px;
+    float: left;
+    padding-right: 15px;
+}
+
+.export-generated-filename {
+    color: #1d315a;
+}
+
+.export-button-content .ant-input-affix-wrapper .ant-input:not(:last-child) {
+    padding-right: 45px;
+}

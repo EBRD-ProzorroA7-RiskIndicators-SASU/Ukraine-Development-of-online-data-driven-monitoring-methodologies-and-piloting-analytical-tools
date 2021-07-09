@@ -1,0 +1,17 @@
+.TemplatesPage .ant-btn {
+    margin-right: 8px;
+}
+
+.TemplatesPage .template-action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TemplatesPage .template-action-button > button {
+    width: 230px;
+}
+
+.TemplatesPage .template-action-button > button:first-child {
+    margin-bottom: 5px;
+}
