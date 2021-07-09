@@ -1,0 +1,3 @@
+.permission-check.disabled > * {
+    opacity: 0.3;
+}

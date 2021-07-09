@@ -1,0 +1,210 @@
+#bottom-cards-wrapper {
+    align-items: stretch;
+}
+
+#bottom-cards-wrapper .Card {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+}
+
+#bottom-cards-wrapper .Card .ReactTable .rt-td:first-child {
+    padding-left: 0;
+}
+
+#bottom-cards-wrapper .Card .ReactTable .rt-tbody .rt-td:last-child {
+    padding-right: 0;
+}
+
+#bottom-cards-wrapper .Card .ReactTable .rt-thead {
+    display: none;
+}
+
+#bottom-cards-wrapper .Card .swith-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom-cards-wrapper .Card .swith-card-content svg {
+    height: 7em;
+    width: 7em;
+}
+
+/*#bottom-cards-wrapper .Card .swith-card-content svg path {*/
+/*fill: #039be5;*/
+/*}*/
+
+#bottom-cards-wrapper .Card .swith-card-content .swith-card-content-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #3d5056;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+#bottom-cards-wrapper .Card .swith-card-content .swith-card-content-value {
+    margin-top: 15px;
+    color: #039be5;
+    font-size: 1.5rem;
+    height: 75px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#bottom-cards-wrapper .Card .swith-card-content .swith-card-content-value .currency-value {
+    color: #3d5056;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+#bottom-cards-wrapper .content-enquiries-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#bottom-cards-wrapper .content-enquiries-count svg {
+    height: 80px;
+}
+
+#bottom-cards-wrapper .content-enquiries-count svg path {
+    fill: #1b95d9;
+}
+
+#bottom-cards-wrapper .content-enquiries-count .title-enquiries-count {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    font-size: 28px;
+    color: #3d5056;
+}
+
+#bottom-cards-wrapper .content-enquiries-count .value-enquiries-count {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 3rem;
+    text-align: center;
+    color: #1b95d9;
+}
+
+#bottom-cards-wrapper .content-procedures-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#bottom-cards-wrapper .content-procedures-top .title-procedures-top {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    font-size: 28px;
+    color: #3d5056;
+}
+
+#bottom-cards-wrapper .content-procedures-top .value-procedures-top {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: center;
+    color: #1b95d9;
+}
+
+#bottom-cards-wrapper .content-okbr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom-cards-wrapper .content-okbr .title-okbr {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: center;
+    color: #1b95d9;
+}
+
+#bottom-cards-wrapper .content-okbr .value-okbr {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    font-size: 28px;
+    color: #3d5056;
+}
+
+#bottom-cards-wrapper .content-okbr .info-okbr {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    font-size: 28px;
+    color: #3d5056;
+    text-align: center;
+}
+
+.swith-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swith-card-content svg {
+    height: 7em;
+    width: 7em;
+}
+
+.swith-card-content .swith-card-content-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #3d5056;
+    font-size: 1.25rem;
+    font-weight: normal;
+    height: 90px;
+}
+
+.swith-card-content .swith-card-content-value {
+    margin-top: 15px;
+    /*color: #039be5;*/
+    color: rgba(65, 91, 165, 1);
+
+    font-size: 1.5rem;
+    height: 75px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.swith-card-content .swith-card-content-value .currency-value {
+    color: #3d5056;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.card-border-style {
+    /*border: 2px solid rgba(65, 91, 165, 0.6);*/
+    border: 2px solid #1890ff;
+    border-radius: 5px;
+}
+
+.swith-card-content svg path {
+    fill: #1890ff;
+    opacity: 0.15;
+}

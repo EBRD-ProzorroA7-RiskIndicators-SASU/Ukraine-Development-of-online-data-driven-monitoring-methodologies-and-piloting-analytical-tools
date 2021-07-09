@@ -1,0 +1,7 @@
+.label-container>label {
+    float: left;
+}
+
+.switch-field-container .user-status-text {
+    margin-left: 10px;
+}

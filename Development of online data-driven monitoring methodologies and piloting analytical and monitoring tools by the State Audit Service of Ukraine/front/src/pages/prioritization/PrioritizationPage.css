@@ -1,0 +1,99 @@
+.PrioritizationPage .ant-table-thead > tr > th {
+    background: #FAFAFA !important;
+}
+
+.PrioritizationPage .test-tab-class .ant-tabs-nav-animated {
+    width: 100%;
+}
+
+.PrioritizationPage .test-tab-class .ant-tabs-nav-animated .ant-tabs-tab:first-child {
+    width: calc(50% - 32px);
+}
+
+.PrioritizationPage .test-tab-class .ant-tabs-nav-animated .ant-tabs-tab {
+    width: calc(50%);
+}
+
+.PrioritizationPage .test-tab-class .ant-tabs-nav-animated .ant-tabs-tab span {
+    display: block;
+    text-align: center;
+}
+
+.PrioritizationPage .test-tab-class .ant-tabs-tab-arrow-show {
+    display: none;
+}
+
+.PrioritizationPage .buyer-dashboard-card-panel {
+    box-shadow: 0px 0px 2px 3px #6c757d3d;
+    margin: 0 15px;
+}
+
+.PrioritizationPage .first-element-buyer-dashboard-card-panel {
+    box-shadow: 0px 0px 2px 3px #6c757d3d;
+    margin-right: 15px;
+}
+
+.PrioritizationPage .last-element-buyer-dashboard-card-panel {
+    box-shadow: 0px 0px 2px 3px #6c757d3d;
+    margin-left: 15px;
+}
+
+.PrioritizationPage .buyer-dashboard-card-panel .ant-card-head,
+.PrioritizationPage .last-element-buyer-dashboard-card-panel .ant-card-head,
+.PrioritizationPage .first-element-buyer-dashboard-card-panel .ant-card-head {
+    padding: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+@media screen and (min-width: 1366px) {
+    .PrioritizationPage .first-element-buyer-dashboard-card-panel,
+    .PrioritizationPage .last-element-buyer-dashboard-card-panel,
+    .PrioritizationPage .buyer-dashboard-card-panel {
+        box-shadow: 0px 0px 2px 3px #6c757d3d;
+        margin: 0 15px;
+        min-height: 250px;
+    }
+
+    .PrioritizationPage .first-element-buyer-dashboard-card-panel .ant-card-body > div,
+    .PrioritizationPage .last-element-buyer-dashboard-card-panel .ant-card-body > div,
+    .PrioritizationPage .buyer-dashboard-card-panel .ant-card-body > div {
+        min-height: 70px;
+    }
+}
+
+/*@media screen and (min-width: 1366px) and (max-width: 1650px) {*/
+/*.PrioritizationPage .margin-top-first-block {*/
+/*margin-top: 27px;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-second-block {*/
+/*margin-top: 0;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-third-block {*/
+/*margin-top: 27px;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-fourth-block {*/
+/*margin-top: 27px;*/
+/*}*/
+/*}*/
+
+/*@media screen and (max-width: 1365px) {*/
+/*.PrioritizationPage .margin-top-first-block {*/
+/*margin-top: 27px;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-second-block {*/
+/*margin-top: 0;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-third-block {*/
+/*margin-top: 0;*/
+/*}*/
+
+/*.PrioritizationPage .margin-top-fourth-block {*/
+/*margin-top: 27px;*/
+/*}*/
+/*}*/

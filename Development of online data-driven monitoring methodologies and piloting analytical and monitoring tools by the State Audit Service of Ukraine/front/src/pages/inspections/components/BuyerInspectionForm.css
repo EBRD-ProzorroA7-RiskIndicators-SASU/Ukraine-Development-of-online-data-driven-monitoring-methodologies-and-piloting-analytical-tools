@@ -1,0 +1,23 @@
+.BuyerInspectionForm .add-custom-question-button {
+    position: absolute;
+    top: -35px;
+    right: 10px;
+}
+
+.BuyerInspectionForm .summary-information-card .ant-card-body {
+    position: relative !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /*padding-top: 20px !important;*/
+    /*padding-bottom: 5px !important;*/
+    /*padding-left: 0;*/
+}
+
+.BuyerInspectionForm .summary-information-card .question-number-container {
+    /*position: absolute;*/
+    /*top: 60px;*/
+    /*width: 100%;*/
+    text-align: center;
+}

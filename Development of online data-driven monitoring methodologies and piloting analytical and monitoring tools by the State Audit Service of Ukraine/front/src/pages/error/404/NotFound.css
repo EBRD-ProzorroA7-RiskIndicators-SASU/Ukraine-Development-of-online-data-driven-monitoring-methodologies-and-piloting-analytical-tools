@@ -1,0 +1,16 @@
+.NotFound h1 {
+    color: #666;
+    font-size: 64px;
+}
+
+.NotFound h4 {
+    color: #b4bcc8;
+}
+
+.NotFound a {
+    color: #666;
+}
+
+.NotFound a:hover {
+    color: #b4bcc8;
+}

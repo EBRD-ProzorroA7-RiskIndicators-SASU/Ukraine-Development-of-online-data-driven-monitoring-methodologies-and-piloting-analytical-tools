@@ -1,0 +1,6 @@
+.FullScreenSpinner {
+    overflow: auto;
+    max-height: 100vh !important;
+    position: fixed;
+    left: 0;
+}
