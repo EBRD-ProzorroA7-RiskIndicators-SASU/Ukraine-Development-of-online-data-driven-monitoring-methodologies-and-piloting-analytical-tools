@@ -1,0 +1,313 @@
+@import '../../globalStyles.scss';
+
+.analytical-container {
+  display: flex;
+  justify-content: center;
+  background: #f8f8f8;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+}
+
+.line-tooltip-container {
+  display: flex;
+  flex-direction: column;
+
+  .line-tooltip-container-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .line-tooltip-container-value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+  }
+}
+
+.analytical-model {
+  max-width: 1920px;
+  width: 100%;
+  padding: 150px 0;
+
+  @media only screen and (max-width: 1599px) {
+    padding: 54px 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    .ant-col-md-11 {
+      max-width: 95%;
+
+      &:first-child {
+        margin-bottom: 12px;
+      }
+    }
+
+    .ant-col-md-12 {
+      max-width: 95%;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    padding: 0;
+  }
+
+  .analytical-model-content-wrapper {
+    width: 100%;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px 0 80px;
+    background: #ffffff;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media only screen and (max-width: 1599px) {
+      padding: 60px 60px 0 60px;
+      height: 502px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      padding: 40px 40px 0 40px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      padding: 60px 20px 40px 20px;
+      height: fit-content;
+      border-radius: 0;
+    }
+
+    .analytical-model-title {
+      max-width: 548px;
+      width: 100%;
+      display: flex;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 120%;
+      color: #000000;
+      margin-bottom: 50px;
+      overflow: hidden;
+
+      @media only screen and (max-width: 1599px) {
+        margin-bottom: 30px;
+      }
+
+      @media only screen and (max-width: 576px) {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .analytical-model-description {
+      .title {
+        max-width: 546px;
+        width: 100%;
+        display: flex;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        margin-bottom: 20px;
+
+        @media only screen and (max-width: 1599px) {
+          margin-bottom: 30px;
+        }
+
+        @media only screen and (max-width: 576px) {
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .description {
+        display: flex;
+        max-width: 546px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 150%;
+        color: #333333;
+
+        @media only screen and (max-width: 576px) {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .analytical-model-grafics-wrapper {
+    width: 100%;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px 0 80px;
+    background: #ffffff;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 25px;
+
+    @media only screen and (max-width: 1599px) {
+      height: 502px;
+      padding: 80px 60px 0 60px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      padding: 40px 40px 0 40px;
+      margin-left: 10px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      margin: 0;
+      border-radius: 0;
+      padding: 40px 20px;
+      background: transparent;
+      height: 160px;
+      margin-bottom: 12px;
+    }
+
+    .analytical-model-grafics {
+      .procedure-block {
+        margin-bottom: 40px;
+      }
+
+      .procedure-block,
+      .violation-block {
+        //position: relative;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #F7F7F7;
+
+
+        .procedure-block-title,
+        .violation-block-title {
+          //position: relative;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+
+          @media only screen and (max-width: 1599px) {
+            margin: 0;
+          }
+
+          @media only screen and (max-width: 576px) {
+            width: 100%;
+            //position: absolute;
+            flex-direction: row;
+            align-items: center;
+            flex-flow: row-reverse;
+            justify-content: space-between;
+            margin: 0;
+            bottom: 60px;
+            left: 10px;
+          }
+        }
+
+        .procedure-block-title {
+          @media only screen and (max-width: 576px) {
+            top: 16px;
+          }
+        }
+
+        .violation-block-title {
+          @media only screen and (max-width: 576px) {
+            bottom: 60px;
+          }
+        }
+
+        .title__top-side {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+
+          @media only screen and (max-width: 576px) {
+            margin-bottom: 0;
+          }
+
+          .title__color-indicator {
+            display: flex;
+            width: 18px;
+            height: 18px;
+            background: #4ab8a4;
+            border-radius: 50%;
+            margin-right: 20px;
+
+            @media only screen and (max-width: 576px) {
+              display: none;
+            }
+          }
+
+          .title__counter {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            color: #000000;
+
+            @media only screen and (max-width: 576px) {
+              flex-direction: row;
+              font-size: 16px;
+              line-height: 20px;
+              letter-spacing: 1px;
+            }
+          }
+        }
+
+        .title {
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 12px;
+            line-height: 15px;
+          }
+        }
+      }
+
+      .violation-block {
+        border: none;
+        margin-top: 50px;
+
+        @media only screen and (max-width: 1599px) {
+          margin-top: 20px;
+        }
+
+        @media only screen and (max-width: 576px) {
+          margin: 0;
+        }
+      }
+
+      .violation-block .title__top-side .title__color-indicator {
+        background: $primary-yellow;
+      }
+
+      .desktop {
+        display: block;
+      }
+
+      .mobile {
+        display: none;
+      }
+
+      @media only screen and (max-width: 576px) {
+        .desktop {
+          display: none;
+        }
+
+        .mobile {
+          position: relative;
+          display: block;
+        }
+      }
+    }
+  }
+}

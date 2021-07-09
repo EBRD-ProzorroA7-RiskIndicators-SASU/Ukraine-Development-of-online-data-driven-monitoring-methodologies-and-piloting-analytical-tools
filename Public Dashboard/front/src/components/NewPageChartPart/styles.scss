@@ -1,0 +1,269 @@
+@import "../../globalStyles.scss";
+
+.newpage-chart-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .flippy-container {
+    width: 100%;
+  }
+
+  .flippy-front, .flippy-back {
+    box-shadow: none;
+    padding: 0 80px;
+  }
+
+  .newpage-chart-wrapper {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+    .newpage-chart-column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // padding: 0 80px;
+      background: #ffffff;
+      border-radius: 10px;
+
+      @media only screen and (max-width: 576px) {
+        background: none;
+        padding: 0 20px;
+      }
+    }
+
+    .newpage-chart-navigation {
+      position: relative;
+      width: 100%;
+      display: flex;
+      margin-top: 80px;
+      padding-bottom: 40px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.15);
+        left: 0;
+        bottom: 0;
+      }
+
+      .buttons-group {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .ant-radio-group {
+          display: flex;
+        }
+
+        .download-buttons {
+          display: flex;
+        }
+
+        .instruction-button {
+          width: 170px;
+
+          svg {
+            margin-right: 6px;
+          }
+        }
+
+        .xls-button {
+          width: 173px;
+          margin-right: 10px;
+
+          svg {
+            margin-right: 10px;
+          }
+        }
+
+        .share-button {
+          width: 50px;
+        }
+
+        .group-button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 50px;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+            1px 4px 13px rgba(126, 126, 126, 0.124208);
+          border-radius: 10px;
+          border: none;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%;
+          color: $primary-dark-azure;
+        }
+
+        .left-button,
+        .middle-button {
+          width: 92px;
+        }
+
+        .middle-button {
+          margin: 0 10px;
+
+          &:before {
+            display: none;
+          }
+        }
+
+        .right-button {
+          width: 236px;
+
+          &:before {
+            display: none;
+          }
+
+          &.ant-radio-button-wrapper-checked {
+            width: 260px;
+          }
+        }
+
+        .ant-radio-button-wrapper {
+          background: #f4f7fa;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+            1px 4px 13px rgba(126, 126, 126, 0.124208);
+          font-size: 14px;
+          line-height: 17px;
+          color: rgba(0, 0, 0, 0.75);
+          font-weight: 300;
+        }
+
+        .ant-radio-button-wrapper-checked {
+          background: linear-gradient(70.24deg, #1e6592 0%, #48a4b1 100%);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+            1px 4px 13px rgba(126, 126, 126, 0.124208);
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .ant-select-selector {
+      display: flex;
+      align-items: center;
+      background: #FCFCFC;
+      height: 40px;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761), 1px 4px 13px rgba(126, 126, 126, 0.124208);
+      border-radius: 10px;
+      border-color: #d9d9d9 !important;
+    }
+
+    .newpage-chart {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 72px;
+
+      @media only screen and (max-width: 576px) {
+        flex-direction: column;
+        margin-top: 30px;
+      }
+
+      .newpage-chart__left-side {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+          display: flex;
+          max-width: 720px;
+          font-weight: 700;
+          font-size: 42px;
+          line-height: 130%;
+          text-transform: uppercase;
+          color: #000000;
+          margin-bottom: 20px;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 24px;
+          }
+        }
+
+        .description {
+          font-size: 14px;
+          line-height: 150%;
+          color: #000000;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 13px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+
+      .newpage-chart__right-side {
+        display: flex;
+        flex-direction: column;
+
+        .auditors {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          color: #000000;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+
+        .auditors-count {
+          font-weight: bold;
+          font-size: 110px;
+          line-height: 120%;
+          color: #000000;
+          margin: 0;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 60px;
+            margin-bottom: 34px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.period-drop-down {
+  top: 780px !important;
+  max-width: 200px !important;
+  min-width: 220px !important;
+  width: 200px !important;
+  background: #F8F8F8 !important;
+  left: 24px !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background: rgba(30, 101, 146, 0.05);
+    font-size: 14px;
+    line-height: 150%;
+    color: $primary-dark-azure;
+  }
+
+  .ant-select-item {
+    padding: 15px 20px;
+
+    &:nth-child(2) {
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+  }
+}

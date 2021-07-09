@@ -1,0 +1,171 @@
+@import "../../globalStyles.scss";
+
+.period-navigation {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+  padding-bottom: 40px;
+
+
+  @media only screen and (max-width: 576px) {
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .ant-select-selection-item {
+    box-shadow: none !important;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.15);
+    left: 0;
+    bottom: 0;
+  }
+
+  .buttons-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .ant-radio-group {
+      display: flex;
+    }
+
+    .download-buttons {
+      display: flex;
+
+      @media only screen and (max-width: 576px) {
+        width: 50px;
+        //height: 40px;
+      }
+    }
+
+    .instruction-button {
+      width: 170px;
+
+      &:active {
+        background: rgba(30, 101, 146, 0.05);
+      }
+
+      svg {
+        margin-right: 6px;
+      }
+    }
+
+    .xls-button {
+      width: 173px;
+      margin-right: 10px;
+
+      svg {
+        margin-right: 10px;
+
+        @media only screen and (max-width: 576px) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .share-button {
+      width: 173px;
+
+      @media only screen and (max-width: 576px) {
+        width: 40px;
+        height: 40px !important;
+        padding: 0;
+      }
+    }
+
+    .group-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      1px 4px 13px rgba(126, 126, 126, 0.124208);
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      color: $primary-dark-azure;
+      margin-right: 10px;
+
+      @media only screen and (max-width: 576px) {
+        margin-right: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+
+    .ant-radio-button-wrapper {
+      background: #f4f7fa;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      1px 4px 13px rgba(126, 126, 126, 0.124208);
+      font-size: 14px;
+      line-height: 17px;
+      color: rgba(0, 0, 0, 0.75);
+      font-weight: 500;
+    }
+
+    .ant-radio-button-wrapper-checked {
+      background: linear-gradient(70.24deg, #1e6592 0%, #48a4b1 100%);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      1px 4px 13px rgba(126, 126, 126, 0.124208);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ffffff;
+    }
+
+    .period-buttons {
+      .group-button {
+        margin-right: 0;
+        border-radius: 0px;
+
+        &:first-child {
+          border-bottom-left-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+
+        &:last-child {
+          border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+.ant-select-selector {
+  display: flex;
+  align-items: center;
+  background: #fcfcfc;
+  height: 40px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+  1px 4px 13px rgba(126, 126, 126, 0.124208);
+  border-radius: 10px;
+  border-color: #d9d9d9 !important;
+}
+
+.ant-select-open .ant-select-selector {
+  box-shadow: none !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  box-shadow: none !important;
+}

@@ -1,0 +1,403 @@
+@import "../../globalStyles.scss";
+
+.market-duration-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .flippy-container {
+    width: 100%;
+  }
+
+  .flippy-front,
+  .flippy-back {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .change-size-button {
+    width: 174px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761), 1px 4px 13px rgba(126, 126, 126, 0.124208);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    &:hover {
+      transition: all 0.35s ease;
+      border: 1px solid rgba(30, 101, 146, 0.15);
+      color: $primary-dark-azure;
+    }
+
+    &:active {
+      background: rgba(30, 101, 146, 0.05);
+    }
+  }
+
+  .monitoring-types-radar-tooltip-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    max-height: 100px;
+    max-width: 300px;
+
+    .monitoring-types-radar-tooltip-line {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      //justify-content: space-between;
+      white-space: break-spaces;
+
+      &:first-child {
+        margin-top: 11px;
+      }
+
+      &__stacked_chart {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        justify-content: space-between;
+      }
+    }
+
+
+    .monitoring-types-radar-tooltip-header {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+
+    .monitoring-types-radar-tooltip-header-line-chart {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000;
+    }
+
+    .monitoring-types-radar-tooltip-title {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000;
+
+      &__stacked_chart {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        color: #808080;
+      }
+    }
+
+    .monitoring-types-radar-tooltip-value {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+      margin-left: 5px;
+
+      &__custom {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        color: #000000;
+        margin-left: 5px;
+      }
+
+      &__stacked_chart {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+    }
+  }
+
+  .market-duration-row {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .market-duration-column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // padding: 0 80px;
+      background: #ffffff;
+      border-radius: 10px;
+
+      @media only screen and (max-width: 576px) {
+        background: none;
+        padding: 0 20px;
+      }
+    }
+
+    .market-duration-navigation {
+      position: relative;
+      width: 100%;
+      display: flex;
+      //margin-top: 80px;
+      padding: 0 80px;
+      //padding-bottom: 40px;
+
+      //&:before {
+      //  content: "";
+      //  position: absolute;
+      //  width: calc(100% - 160px);
+      //  height: 1px;
+      //  background: rgba(0, 0, 0, 0.15);
+      //  left: 50%;
+      //  transform: translateX(-50%);
+      //  bottom: 0;
+      //}
+
+      //.buttons-group {
+      //  width: 100%;
+      //  display: flex;
+      //  flex-direction: row;
+      //  align-items: center;
+      //  justify-content: space-between;
+      //
+      //  .ant-radio-group {
+      //    display: flex;
+      //  }
+      //
+      //  .download-buttons {
+      //    display: flex;
+      //  }
+      //
+      //  .instruction-button {
+      //    width: 170px;
+      //
+      //    svg {
+      //      margin-right: 6px;
+      //    }
+      //  }
+      //
+      //  .xls-button {
+      //    width: 173px;
+      //    margin-right: 10px;
+      //
+      //    svg {
+      //      margin-right: 10px;
+      //    }
+      //  }
+      //
+      //  .share-button {
+      //    width: 50px;
+      //  }
+      //
+      //  .group-button {
+      //    display: flex;
+      //    align-items: center;
+      //    justify-content: center;
+      //    height: 50px;
+      //    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      //    1px 4px 13px rgba(126, 126, 126, 0.124208);
+      //    border-radius: 10px;
+      //    border: none;
+      //    font-weight: 500;
+      //    font-size: 14px;
+      //    line-height: 150%;
+      //    color: $primary-dark-azure;
+      //  }
+      //
+      //  .left-button,
+      //  .middle-button {
+      //    width: 92px;
+      //  }
+      //
+      //  .middle-button {
+      //    margin: 0 10px;
+      //
+      //    &:before {
+      //      display: none;
+      //    }
+      //  }
+      //
+      //  .right-button {
+      //    width: 236px;
+      //
+      //    &:before {
+      //      display: none;
+      //    }
+      //
+      //    &.ant-radio-button-wrapper-checked {
+      //      width: 260px;
+      //    }
+      //  }
+      //
+      //  .ant-radio-button-wrapper {
+      //    background: #f4f7fa;
+      //    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      //    1px 4px 13px rgba(126, 126, 126, 0.124208);
+      //    font-size: 14px;
+      //    line-height: 17px;
+      //    color: rgba(0, 0, 0, 0.75);
+      //    font-weight: 300;
+      //  }
+      //
+      //  .ant-radio-button-wrapper-checked {
+      //    background: linear-gradient(70.24deg, #1e6592 0%, #48a4b1 100%);
+      //    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.191761),
+      //    1px 4px 13px rgba(126, 126, 126, 0.124208);
+      //    font-weight: 500;
+      //    font-size: 18px;
+      //    line-height: 22px;
+      //    color: #ffffff;
+      //  }
+      //}
+    }
+
+    .market-duration-info {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 72px;
+      margin-bottom: 64px;
+      padding: 0 80px;
+
+      @media only screen and (max-width: 576px) {
+        flex-direction: column;
+        margin-top: 30px;
+      }
+
+      .market-duration-info__left-side {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+          display: flex;
+          max-width: 720px;
+          font-weight: 700;
+          font-size: 42px;
+          line-height: 130%;
+          text-transform: uppercase;
+          color: #000000;
+          margin-bottom: 20px;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 24px;
+          }
+        }
+
+        .description {
+          font-size: 14px;
+          line-height: 150%;
+          color: #000000;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 13px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+
+      .market-duration-info__right-side {
+        display: flex;
+        flex-direction: column;
+
+        .auditors {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          color: #000000;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+
+        .auditors-count {
+          font-weight: bold;
+          font-size: 110px;
+          line-height: 120%;
+          color: #000000;
+          margin: 0;
+
+          @media only screen and (max-width: 576px) {
+            font-size: 60px;
+            margin-bottom: 34px;
+          }
+        }
+      }
+    }
+
+    .market-duration-charts-wrapper {
+      display: flex;
+      margin-top: 60px;
+      padding: 0 80px;
+
+      @media only screen and (max-width: 576px) {
+        padding: 0 20px;
+        margin-top: 20px;
+      }
+
+      .dumbbell-wrapper {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .dumbbell-chart-title {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          color: #000;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+
+        .dumbbell-top-side {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .left-side,
+        .right-side {
+          display: flex;
+          flex-direction: column;
+
+          .title {
+            font-size: 12px;
+            line-height: 150%;
+            letter-spacing: 0.03em;
+            color: rgba(0, 0, 0, 0.5);
+          }
+
+          .subtitle {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 150%;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+}

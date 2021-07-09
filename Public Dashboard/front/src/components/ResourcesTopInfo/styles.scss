@@ -1,0 +1,220 @@
+@import "../../globalStyles.scss";
+
+.top-info-container {
+  position: relative;
+  width: 100%;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F8F8F8;
+  z-index: -1;
+
+  @media only screen and (max-width: 576px) {
+    padding-top: 105px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(116.44deg, #1e6592 16.61%, #48a4b0 83.39%);
+    z-index: -1;
+
+    @media only screen and (max-width: 576px) {
+      display: none;
+    }
+  }
+}
+
+.top-info-content-wrapper {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  .top-info-content-bottom-radius {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .top-info-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    margin-top: -70px;
+
+    @media only screen and (max-width: 1200px) {
+      padding: 0 40px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      padding: 0 40px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      margin-top: -35px;
+      padding: 0 20px;
+      border-radius: 0;
+    }
+  }
+
+  .top-info-title {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+
+    @media only screen and (max-width: 576px) {
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 600;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 60px 0 110px 0;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      margin: 20px 0 37px 0;
+      flex-direction: column;
+    }
+
+    .left-side-wrapper {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      // width: 62%;
+
+      &.currency-format {
+        @media only screen and (min-width: 1024px) {
+          width: 50%;
+        }
+
+        @media only screen and (max-width: 576px) {
+          justify-content: flex-start;
+          width: 100%;
+        }
+      }
+    }
+
+    .content__left-side {
+      display: flex;
+      font-weight: 700;
+      font-size: 140px;
+      line-height: 171px;
+      letter-spacing: 0.05em;
+      color: $primary-yellow;
+
+      @media only screen and (min-width: 1367px) {
+        font-size: 120px !important;
+      }
+
+      @media only screen and (min-width: 576px) and (max-width: 1366px) {
+        font-size: 100px !important;
+      }
+
+      @media only screen and (max-width: 576px) {
+        font-size: 80px;
+        line-height: 98px;
+      }
+    }
+
+    .currency-type {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      color: $primary-yellow;
+      margin-bottom: 30px;
+    }
+
+    .content__right-side {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      // margin-right: 70px;
+
+      @media only screen and (min-width: 1024px) {
+        flex: 1 1 50%;
+      }
+
+      @media only screen and (max-width: 576px) {
+        margin: 0;
+      }
+
+      .title {
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 120%;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 50px;
+
+        @media only screen and (max-width: 576px) {
+          font-size: 30px;
+          line-height: 120%;
+          max-width: 280px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #000000;
+        margin: 0;
+
+        @media only screen and (max-width: 576px) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

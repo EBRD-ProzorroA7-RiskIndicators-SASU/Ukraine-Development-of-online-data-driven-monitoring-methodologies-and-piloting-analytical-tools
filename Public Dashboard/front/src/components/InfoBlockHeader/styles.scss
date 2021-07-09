@@ -1,0 +1,115 @@
+@import "../../globalStyles.scss";
+
+.info-block-count {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding: 0 80px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0 40px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  .info-block-value-wrapper {
+    display: flex;
+
+    .info-block-value-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+      font-size: 18px;
+
+      @media only screen and (max-width: 576px) {
+        flex-direction: row;
+      }
+
+      .info-block-value-pref, .info-block-value-suf {
+        height: 20px;
+      }
+
+      .info-block-value-suf {
+        @media only screen and (max-width: 576px) {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .info-block-count__left-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+
+    .title {
+      display: flex;
+      max-width: 720px;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 20px;
+
+      @media only screen and (max-width: 576px) {
+        font-size: 24px;
+      }
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 150%;
+      color: #000000;
+
+      @media only screen and (max-width: 576px) {
+        font-size: 13px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .info-block-count__right-side {
+    display: flex;
+    flex-direction: column;
+
+    .auditors {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      color: #000000;
+
+      @media only screen and (max-width: 576px) {
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+
+    .auditors-count {
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 110px;
+      line-height: 120%;
+      color: #000000;
+      text-align: right;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 80px;
+        margin-bottom: 34px;
+      }
+
+      @media only screen and (max-width: 576px) {
+        font-size: 60px;
+        margin-bottom: 34px;
+      }
+    }
+  }
+}
