@@ -1,0 +1,20 @@
+package com.datapath.integration.utils;
+
+public enum EntitySource {
+
+    TENDERING("tendering"),
+    CONTRACTING("contracting"),
+    AGREEMENT("agreement");
+
+    private String sourceName;
+
+    EntitySource(String sourceName) {
+        this.sourceName = sourceName;
+    }
+
+    @Override
+    public String toString() {
+        return this.sourceName;
+    }
+
+}

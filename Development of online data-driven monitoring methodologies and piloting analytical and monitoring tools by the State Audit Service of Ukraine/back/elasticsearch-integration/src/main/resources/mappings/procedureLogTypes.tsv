@@ -1,0 +1,12 @@
+priorityAnalyzed	Пріоритетна – проаналізована	TRUE	TRUE
+priorityNotAnalyzed	Пріоритетна - не проаналізована	FALSE	TRUE
+notPriorityAnalyzed	Не пріоритетна – проаналізована	TRUE	TRUE
+notPriorityNotAnalyzed	Не пріоритетна - не проаналізована	FALSE	TRUE
+historyPriorityAnalyzed	Історична - Пріоритетна – проаналізована	TRUE	FALSE
+historyPriorityNotAnalyzed	Історична - Пріоритетна - не проаналізована	FALSE	FALSE
+historyNotPriorityAnalyzed	Історична - не пріоритетна – проаналізована	TRUE	FALSE
+historyNotPriorityNotAnalyzed	Історична - не пріоритетна - не проаналізована	FALSE	FALSE
+historyPriorityAnalyzedMonitoring	Історична - Пріоритетна - проаналізована – моніторинг	TRUE	FALSE
+historyPriorityNotAnalyzedMonitoring	Історична - Пріоритетна - не проаналізована- моніторинг	FALSE	FALSE
+historyNotPriorityAnalyzedMonitoring	Історична - не пріоритетна - проаналізована- моніторинг	TRUE	FALSE
+historyNotPriorityNotAnalyzedMonitoring	Історична - не пріоритетна - не проаналізована- моніторинг	FALSE	FALSE
