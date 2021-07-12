@@ -63,7 +63,7 @@ The risk engine tool has been designed to access the OCDS database from Prozorro
 
 Developed analytical infrastructure for procurement procedures monitoring by the SAS has the following architecture: 
 
-
+![alt text](https://github.com/EBRD-ProzorroA7-RiskIndicators-SASU/Ukraine-Development-of-online-data-driven-monitoring-methodologies-and-piloting-analytical-tools/blob/main/Development%20of%20online%20data-driven%20monitoring%20methodologies%20and%20piloting%20analytical%20and%20monitoring%20tools%20by%20the%20State%20Audit%20Service%20of%20Ukraine%20–%20%20Development%20and%20implementation%20of%20front-end%20analytical%20tool/Figures/Git_1.png "screen 1")​
 
 
 
