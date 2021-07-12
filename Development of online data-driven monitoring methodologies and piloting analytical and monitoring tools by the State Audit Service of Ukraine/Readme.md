@@ -66,8 +66,6 @@ Developed analytical infrastructure for procurement procedures monitoring by the
 ![alt text](https://github.com/EBRD-ProzorroA7-RiskIndicators-SASU/Ukraine-Development-of-online-data-driven-monitoring-methodologies-and-piloting-analytical-tools/blob/main/Development%20of%20online%20data-driven%20monitoring%20methodologies%20and%20piloting%20analytical%20and%20monitoring%20tools%20by%20the%20State%20Audit%20Service%20of%20Ukraine%20–%20%20Development%20and%20implementation%20of%20front-end%20analytical%20tool/Figures/Git_1.png "screen 1")​
 
 
-
-
 ### Prozorro Environment 
 #### eProcurement system (ePS)
 The public procurement reform in Ukraine has been ongoing for several years, legislative changes were made, and an electronic public procurement system Prozorro was created with the portal https://prozorro.gov.ua/en. Ukraine is on the track of becoming yet another country to adopt eProcurement fully. The ePS is developing continuously and needs to overcome a lot of challenges. However, the Government of Ukraine is actively introducing IT technologies into all business processes in the state administration, and electronic public procurement is one of the essential directions in digital transformation.
@@ -127,13 +125,7 @@ The ex-ante monitoring officially started to operate on October 31, 2018. SAS in
 
 The introduction of the new monitoring approach significantly improved the duration of the process. The median time required to monitor 1 procedure reduced from 26-27 days to 6-10 days. In 2019 median time to monitor 1 procedure was 9 days.
 
-
-
-
-
-
-
-
+![alt text](https://github.com/EBRD-ProzorroA7-RiskIndicators-SASU/Ukraine-Development-of-online-data-driven-monitoring-methodologies-and-piloting-analytical-tools/blob/main/Development%20of%20online%20data-driven%20monitoring%20methodologies%20and%20piloting%20analytical%20and%20monitoring%20tools%20by%20the%20State%20Audit%20Service%20of%20Ukraine%20–%20%20Development%20and%20implementation%20of%20front-end%20analytical%20tool/Figures/Git_2.png "screen 2")​
 
 
 There is a positive year-to-year dynamic of monitoring instances triggered by the risk indicators and the SAS own initiative. However, it took significant time for the officials to accept the amended methodology and the new set of risk indicators after the Law changed in April 2020. Therefore, there is a decreasing trend for monitoring instances triggered by risk indicators from April till December 2020, as some indicators were not applicable anymore.  
@@ -144,13 +136,9 @@ The current Law does not stipulate the monitoring of [below thresholds](https://
 
 The table below summarises procurements monitoring instances a year to year dynamics. 
 
+![alt text](https://github.com/EBRD-ProzorroA7-RiskIndicators-SASU/Ukraine-Development-of-online-data-driven-monitoring-methodologies-and-piloting-analytical-tools/blob/main/Development%20of%20online%20data-driven%20monitoring%20methodologies%20and%20piloting%20analytical%20and%20monitoring%20tools%20by%20the%20State%20Audit%20Service%20of%20Ukraine%20–%20%20Development%20and%20implementation%20of%20front-end%20analytical%20tool/Figures/Git_3.png "screen 3")​
 
-
-
-
-
-
-
+![alt text](https://github.com/EBRD-ProzorroA7-RiskIndicators-SASU/Ukraine-Development-of-online-data-driven-monitoring-methodologies-and-piloting-analytical-tools/blob/main/Development%20of%20online%20data-driven%20monitoring%20methodologies%20and%20piloting%20analytical%20and%20monitoring%20tools%20by%20the%20State%20Audit%20Service%20of%20Ukraine%20–%20%20Development%20and%20implementation%20of%20front-end%20analytical%20tool/Figures/Git_4.png "screen 3")​
 
 Going forward, the Project’s impact could be increased by allocating resources and a budget to support the analytical capacity of the auditors to develop a new analytical hypothesis on risk identification and implement them into the digital environment.  The tools and risk indicators now available require a periodic evaluation and need to be assessed for their relevance and effectiveness in a constantly changing environment. The risk information could be used to develop risk responses not just for procedure monitoring purposes but for policymakers in their decisions across different policy fields.
 
